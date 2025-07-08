@@ -1,8 +1,6 @@
 package user_repository
 
 import (
-	"fmt"
-
 	"github.com/januaruwanda/go-project-layout.git/internal/domain"
 	"github.com/januaruwanda/go-project-layout.git/pkg/database"
 )
@@ -82,7 +80,7 @@ func (ur *UserRepository) IsUserByNameExists(name string) (bool, error) {
 }
 
 func (ur *UserRepository) GetUserByUsername(result *domain.User, username string) error {
-	query := fmt.Sprintf(`
+	query := `
 		SELECT 
 			uuid AS UUID,
 			username, 
@@ -92,7 +90,7 @@ func (ur *UserRepository) GetUserByUsername(result *domain.User, username string
 			users 
 		WHERE 
 			username = ?
-	`)
+	`
 
 	err := ur.database(&result,
 		false,
