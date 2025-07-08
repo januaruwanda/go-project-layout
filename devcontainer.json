@@ -1,0 +1,8 @@
+{
+    "name": "BigVision",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "postCreateCommand": "echo 'Container setup complete'"
+}

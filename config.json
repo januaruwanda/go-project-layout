@@ -1,0 +1,24 @@
+{
+    "debug": true,
+    "server": {
+        "host": "host",
+        "port": 8080
+    },
+    "database": {
+      "host": "host",
+      "port": "3306",
+      "user": "user",
+      "password": "password",
+      "name": "name"
+    },
+    "minio": {
+        "storage_address": "storage_address",
+        "bucket_name": "bucket_name",
+        "access_key": "access_key",
+        "secret_key": "secret_key",
+        "secure": true
+    },
+    "encryption": {
+        "jwt_private_key": "jwt_private_key"
+    }
+} 
