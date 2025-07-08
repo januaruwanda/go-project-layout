@@ -1,10 +1,10 @@
-# Bigsocial Codebase
+# Go Codebase
 
 # Architecture
 ![architecture](docs/assets/arch.png)
 - **FE Dashboard**: The front-end interface for users to interact with the system, providing visualizations and controls for video analytics.
 
-- **Bigsocial-codebase**: The core backend service that handles all video analytics and API analytics, ensuring efficient processing and management of video data.
+- **Go-codebase**: The core backend service that handles all video analytics and API analytics, ensuring efficient processing and management of video data.
 
 - **MinIO**: An object storage service used for storing and retrieving large amounts of unstructured data, such as video files and analytics results.
 
