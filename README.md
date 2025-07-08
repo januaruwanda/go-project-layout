@@ -3,7 +3,7 @@
 This document outlines the project layout for the **januaruwanda Go Codebase** service, a Go-based application designed for large-scale data processing and computer vision tasks.
 
 # Architecture
-![architecture](docs/architecture/architecture.png)
+![architecture](docs/architecture/architecture.svg)
 
 - **MinIO**: An object storage service used for storing and retrieving large amounts of unstructured data, such as video files and analytics results.
 
